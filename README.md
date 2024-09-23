@@ -10,10 +10,7 @@ Este proyecto implementa y compara diferentes algoritmos de multiplicación de m
   - [Multiplicación de Matrices por Bloques](#multiplicación-de-matrices-por-bloques)
 - [Análisis del Movimiento de Datos y Caché](#análisis-del-movimiento-de-datos-y-caché)
 - [Herramientas de Análisis](#herramientas-de-análisis)
-- [Instrucciones de Uso](#instrucciones-de-uso)
-- [Requisitos](#requisitos)
-- [Ejecución](#ejecución)
-- [Referencias](#referencias)
+
 
 ## Descripción
 
@@ -52,6 +49,3 @@ Para analizar el movimiento de datos y el rendimiento de los algoritmos, se util
     kcachegrind cachegrind.out.xxxxx
     ```
 
-### Evaluación del Rendimiento
-
-Ambas herramientas permiten evaluar cómo los algoritmos se comportan en términos de acceso a la memoria y caché, ofreciendo información valiosa sobre los fallos de caché L1, L2 y L3, y proporcionando una visión detallada del movimiento de datos entre la memoria principal y la caché.
